@@ -31,4 +31,4 @@ Fixes needed:
 
 5. Create a GUI (Tkl?) and deployable package
 
-6. Include styles in output file
+6. Include styles in output file. Currently the 'StyleMap' section of the original .kml file is dropped so symbology reverts to the defaults (e.g. yellow pushpin).
