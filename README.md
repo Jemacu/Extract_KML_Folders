@@ -11,7 +11,7 @@ Fixes needed:
   - exit gracefully if file is not valid kml or if .kmz file is given
   - exit gracefully if destination path is not valid
   - recognize if destination path is given with or without trailing backslash and act accordingly
-  - currently the <name> tag must be in the line following the <Folder> tag otherwise the script will fail
+  - currently the 'name' tag must be in the line following the 'Folder' tag otherwise the script will fail.
 
 2. Add recursivity (currently the script will only work if there is a single level of nesting)
   For example, consider the following folder structure:
@@ -23,12 +23,12 @@ Fixes needed:
                         Folder in that folder (Level 3)
             
             
-  The script will fail because it will end the file at the end of the 'Level 3' folder instead of extracting it to a separate file and    continuing with the 'Level 2' folder.
+  The script will fail because it will end the file at the end of the 'Level 3' folder instead of extracting it to a separate file and continuing with the 'Level 2' folder.
   
 3. Add check for duplicate folder names (currently, if there are multiple folders with the same name, the existing file will be overwritten.)
   
 4. Add ability to deal with geographic features in the 'Level 1' folder (features not in subfolders)
 
-5. Create a GUI (Tkl?)
+5. Create a GUI (Tkl?) and deployable package
 
-6. Create deployable package
+6. Include styles in output file
