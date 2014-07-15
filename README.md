@@ -25,8 +25,10 @@ Fixes needed:
             
   The script will fail because it will end the file at the end of the 'Level 3' folder instead of extracting it to a separate file and    continuing with the 'Level 2' folder.
   
-3. Add ability to deal with geographic features in the 'Level 1' folder (features not in subfolders)
+3. Add check for duplicate folder names (currently, if there are multiple folders with the same name, the existing file will be overwritten.
+  
+4. Add ability to deal with geographic features in the 'Level 1' folder (features not in subfolders)
 
-4. Create a GUI (Tkl?)
+5. Create a GUI (Tkl?)
 
-5. Create deployable package
+6. Create deployable package
