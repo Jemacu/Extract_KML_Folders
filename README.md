@@ -1,9 +1,10 @@
 Extract KML Folders
 ==========
 
-Python script to extract subfolders from a kml file
+parsekml.py is a Python script to extract subfolders from a kml file
+doc.kml is the kml file created in Google Earth used to test the Python script
 
-Each subfolder is written to a separate file. The file name will be the the folder name with leading and trailing spaces stripped and internal spaces replaced withe underscores
+Each subfolder in the .kml file is written to a separate file. The file name will be the folder name with leading and trailing spaces stripped and internal spaces replaced with underscores
 
 Fixes needed:
 -------------
