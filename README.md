@@ -11,7 +11,7 @@ Fixes needed:
 1. Make the code more elegant and robust:
   - exit gracefully if file is not valid kml or if .kmz file is given
   - exit gracefully if destination path is not valid
-  - recognize if destination path is given with or without trailing backslash and act accordingly. (Currently, **not** inluding the backslash at the end will result in the files being saved to the wrong location, with the wrong name.) 
+  - recognize if destination path is given with or without trailing backslash and act accordingly. (Currently, **not** including the backslash at the end will result in the files being saved to the wrong location, with the wrong name.) 
   - Add a check to see if the 'name' tag exists in the line after the 'folder' tag. Currently the 'name' tag **must** be in the line following the 'Folder' tag or the script will fail.
   - Add check that readline() did not return more than one trigger (e.g. the 'Folder' and 'name' tags in the same line).
 
